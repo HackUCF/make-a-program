@@ -1,3 +1,11 @@
 module Main
 
-print("Hello, world!")
+include "string"
+
+// hmmmm I forgot how to join two strings together in Grain.
+// maybe the documentation has some useful info?
+let first = "Hello, "
+let second = "world!"
+let message = String.join(first, second)
+
+print(message)
